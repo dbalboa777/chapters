@@ -1,0 +1,11 @@
+name: My fisrt workflows
+on: workflow_dispatch
+jobs: 
+  firs-job:
+    runs-on: macos-latest
+    steps: 
+      - name: Print 1
+      - run: echo "Hola Mundo"
+      - name: Print 2
+      - run: echo "Chao Mundo"
+      
