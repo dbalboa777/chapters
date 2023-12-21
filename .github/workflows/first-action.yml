@@ -1,7 +1,7 @@
 name: My fisrt workflows
 on: workflow_dispatch
 jobs: 
-  firs-job:
+  first-job:
     runs-on: macos-latest
     steps: 
       - name: Print 1
