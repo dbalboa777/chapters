@@ -1,11 +1,11 @@
-name: My fisrt workflows
+name: First Workflow
 on: workflow_dispatch
-jobs: 
+jobs:
   first-job:
-    runs-on: macos-latest
-    steps: 
-      - name: Print 1
-      - run: echo "Hola Mundo"
-      - name: Print 2
-      - run: echo "Chao Mundo"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
       
